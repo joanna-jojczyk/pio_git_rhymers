@@ -3,8 +3,8 @@ package edu.kis.vh.nursery.list;
 public class IntLinkedList {
     private static final int EMPTY_VALUE = -1;
 
-    Node last; //na górze róże na dole fiołki, last się zapomniał i zrobił fikołki
-    int i;
+    private Node last; //na górze róże na dole fiołki, last się zapomniał i zrobił fikołki
+    private int i;
 
     public void push(int i) {
         if (last == null)
