@@ -9,6 +9,10 @@ public class DefaultCountingOutRhymer {
     private final int[] numbers = new int[NUMBERS_COUNT];
     private int currentNumberIndex = EMPTY_INDEX;
 
+    public int getCurrentNumberIndex() {
+        return currentNumberIndex;
+    }
+
     public void countIn(int in) {
         if (!isFull())
             numbers[++currentNumberIndex] = in;
